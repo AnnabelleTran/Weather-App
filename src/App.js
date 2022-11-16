@@ -65,9 +65,13 @@ function App (){
           <div className="weather-container">
           <div className= "weather">
               <div className="temp">{Math.round(weather.main.temp)}°C</div>
+              <div className = "extrainfo">Feels Like: {Math.round(weather.main.feels_like)}°C</div>
+              <div className = "extrainfo">Max Temp: {Math.round(weather.main.temp_max)}°C, Min Temp: {Math.round(weather.main.temp_min)}°C</div>
               <div className = "weatherinfo">
                 <div className="condition">{weather.weather[0].main}</div>
+                <div className = "extrainfo">Wind Speed: {weather.wind.speed}, Wind Degree: {weather.wind.deg}</div>
                 <div className="city">{weather.name}, {weather.sys.country}</div>
+                <div className = "extrainfo">Longitude: {weather.coord.lon}, Latitude: {weather.coord.lat}</div>
               
             <br></br>
             <div className="date">{getTodaysDate(new Date())}</div>

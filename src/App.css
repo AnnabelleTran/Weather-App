@@ -40,8 +40,8 @@
  .date {
   color: white;
   font-size: 2vw;
-  font-weight: 300;
   text-align: center;
+  margin-top: 1.5vw;
  }
  
  .city {
@@ -52,6 +52,13 @@
   text-align: center;
  }
  
+.extrainfo{
+  color: white;
+  font-size: 1.5vw;
+  margin: .1vw auto;
+  text-align: center;
+}
+
  .temp {
   font-size: 4vw;
   margin: .5vw 35vw;
@@ -67,6 +74,7 @@
   margin: 1vw auto 1.5vw;
   padding: .5vw 1vw;
   color: white;
+  font-weight: 600;
   font-size: 3vw;
   text-align: center;
   margin-bottom: 0vw;
@@ -79,4 +87,5 @@
   margin: 3vw 5vw;
   padding: 1vw;
   padding-bottom: 2vw;
+  margin-top: 1vw;
  }
